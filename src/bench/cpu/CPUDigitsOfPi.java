@@ -135,4 +135,9 @@ public class CPUDigitsOfPi implements IBenchmark
     public void cancel()
     {
     }
+
+    @Override
+    public Object getResult() {
+        return null;
+    }
 }

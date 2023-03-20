@@ -61,4 +61,10 @@ public class DemoBenchmark implements IBenchmark
     {
 
     }
+
+    @Override
+    public Object getResult()
+    {
+        return null;
+    }
 }

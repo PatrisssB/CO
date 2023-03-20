@@ -18,4 +18,5 @@ public interface IBenchmark
     // call calculatePi from here and also verify if you can make it smaller
    public void cancel(); //– useful mainly when exposing a UI (user interface) to a client
 
+    Object getResult();
 }
